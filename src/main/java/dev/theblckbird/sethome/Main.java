@@ -1,6 +1,8 @@
-package com.theblckbird.sethome;
+package dev.theblckbird.sethome;
 
-public class Main {
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("Hello, SpigotMC!");
