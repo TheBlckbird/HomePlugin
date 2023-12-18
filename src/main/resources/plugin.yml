@@ -1,0 +1,23 @@
+main: dev.theblckbird.sethome.Main
+name: SetHome
+version: 0.1
+description: A plugin to set your home
+author: TheBlckbird
+api-version: '1.20'
+permissions:
+    home.command:
+        description: Permission to use the /sethome and /home command
+        default: true
+commands:
+    sethome:
+        description: Set your home
+        usage: /sethome
+        aliases: [sh, sethome]
+        permission: home.command
+        permission-message: You don't have the permission to use this command
+    home:
+        description: Teleport to your home
+        usage: /home
+        aliases: [h, home]
+        permission: home.command
+        permission-message: You don't have the permission to use this command
